@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch - A - Sketch </title>
+    <title>Etch-A-Sketch</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
-    <script src="./scipt.js"></script>
 </head>
 <body>
-    
+    <div id="sketchPad">
+        <div id="controls">
+            <button class="btn" id="reset"><i class="fa-solid fa-repeat"></i></button>
+            <select name="gridSelector" id="gridSelector">
+                <option value="8" selected>8x8</option>
+                <option value="16">16x16</option>
+                <option value="32">32x32</option>
+                <option value="64">64x64</option>
+            </select>
+                <input type="color" name="color" id="color" value="#FFFFFF">
+        </div>
+        <div id="mainContainer">
+            <!-- main grid Container -->
+        </div>
+    </div>
 </body>
 </html>
