@@ -1,5 +1,3 @@
-
-
 const mainContainer = document.querySelector('#mainContainer');
 const reset = document.querySelector('#reset');
 const gridSelector = document.querySelector('#gridSelector');
